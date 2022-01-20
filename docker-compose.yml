@@ -20,7 +20,7 @@ services:
       - "3307:3306"
   app:
     build: .
-    command: bash -c "rm -f -- /chat_test/tmp/pids/server.pid && bundle install && bin/rails db:migrate RAILS_ENV=development && bin/rails runner 'Message.create_index!' && bundle exec rails s -p 3000 -b '0.0.0.0'"
+    command: bash -c "rm -f -- /chat_test/tmp/pids/server.pid && bundle install && rails db:migrate RAILS_ENV=development && rails runner 'Message.create_index!' && bundle exec rails s -p 3000 -b '0.0.0.0'"
 #    command: bash -c "bundle exec rails s -p 3000 -b '0.0.0.0'"
     volumes:
       - ".:/chat_test"
