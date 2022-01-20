@@ -21,12 +21,12 @@ Step 3 :
 
 After finish (docker-compose up) you will have 6 containers running
 
-1- Mysql database container   // PORT : 3307
-2- Elasticsearch container   // PORT : 9200
-3- Kibana container   //  PORT : 5601 , i use this to monitor the elasticsearch and indexes
-4- Sidekiq container     //  to handle the queue approche on peoject
-5- Redis container   //  PORT : 5601 , Sidekiq is one of the more widely used background job frameworks that you can implement in a Rails application. It is backed by Redis , Redis as a job management store to process thousands of jobs per second
-6- Chat_test container    // PORT : 3001 , to run whole app
+* Mysql database container   // PORT : 3307
+* Elasticsearch container   // PORT : 9200
+* Kibana container   //  PORT : 5601 , i use this to monitor the elasticsearch and indexes
+* Sidekiq container     //  to handle the queue approche on peoject
+* Redis container   //  PORT : 5601 , Sidekiq is one of the more widely used background job frameworks that you can implement in a Rails application. It is backed by Redis , Redis as a job management store to process thousands of jobs per second
+* Chat_test container    // PORT : 3001 , to run whole app
 
 
 Note : 
