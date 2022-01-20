@@ -1,0 +1,288 @@
+{
+	"info": {
+		"_postman_id": "6608e684-bffb-4de4-a353-c82936cfffe1",
+		"name": "chat_test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "apps/get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/apps/get",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"apps",
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "apps/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Kora 1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/apps/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"apps",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "apps/update/VW9EGu6XThmk87GYasMHWNht",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"application 2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/apps/update/VW9EGu6XThmk87GYasMHWNht",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"apps",
+						"update",
+						"VW9EGu6XThmk87GYasMHWNht"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "apps/find/961MRzojkUUVGMGD1uabViaH",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/apps/find/961MRzojkUUVGMGD1uabViaH",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"apps",
+						"find",
+						"961MRzojkUUVGMGD1uabViaH"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "apps/961MRzojkUUVGMGD1uabViaH/chats/get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/apps/961MRzojkUUVGMGD1uabViaH/chats/get",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"apps",
+						"961MRzojkUUVGMGD1uabViaH",
+						"chats",
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "apps/961MRzojkUUVGMGD1uabViaH/chats/find/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/apps/961MRzojkUUVGMGD1uabViaH/chats/find/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"apps",
+						"961MRzojkUUVGMGD1uabViaH",
+						"chats",
+						"find",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/apps/961MRzojkUUVGMGD1uabViaH/chats/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/apps/961MRzojkUUVGMGD1uabViaH/chats/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"apps",
+						"961MRzojkUUVGMGD1uabViaH",
+						"chats",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "apps/QGbGqqgoJuw3jBQEq19nPCYS/chats/1/messages/get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/apps/QGbGqqgoJuw3jBQEq19nPCYS/chats/1/messages/get?page=1&per_page=50",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"apps",
+						"QGbGqqgoJuw3jBQEq19nPCYS",
+						"chats",
+						"1",
+						"messages",
+						"get"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "50"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "apps/961MRzojkUUVGMGD1uabViaH/chats/1/messages/createOnQueue",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\" : \"first queue message\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/apps/961MRzojkUUVGMGD1uabViaH/chats/1/messages/createOnQueue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"apps",
+						"961MRzojkUUVGMGD1uabViaH",
+						"chats",
+						"1",
+						"messages",
+						"createOnQueue"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "apps/961MRzojkUUVGMGD1uabViaH/chats/1/messages/search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/apps/961MRzojkUUVGMGD1uabViaH/chats/1/messages/search?search_text=lara",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"apps",
+						"961MRzojkUUVGMGD1uabViaH",
+						"chats",
+						"1",
+						"messages",
+						"search"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "search_text",
+							"value": "lara"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
